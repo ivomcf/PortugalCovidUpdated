@@ -43,7 +43,8 @@
         android:drawableLeft="@drawable/ic_action_username"
         android:ems="10"
         android:hint="@string/username"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textStyle="normal" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -58,13 +59,16 @@
         android:inputType="textPassword" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="72dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         app:cardBackgroundColor="@color/colorAccent"
-        app:cardCornerRadius="25dp" >
+        app:cardCornerRadius="25dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
