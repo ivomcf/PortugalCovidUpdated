@@ -10,4 +10,6 @@
     <string name="username">Utilizador</string>
     <string name="password">Palavra-passe</string>
     <string name="login">Entrar</string>
+    <string name="register">Registar</string>
+    <string name="confirm_password">Confirmar Passe</string>
 </resources>
