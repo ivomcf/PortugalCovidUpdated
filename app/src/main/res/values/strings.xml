@@ -3,13 +3,10 @@
     <string name="tab_text1">Suspeitos</string>
     <string name="tab_text2">Confirmados</string>
     <string name="tab_text3">Recuperados</string>
-
-    <string name="nome_distrito1">Lisboa</string>
-    <string name="nome_distrito2">Guarda</string>
-    <string name="nome_distrito3">Faro</string>
     <string name="username">Utilizador</string>
     <string name="password">Palavra-passe</string>
     <string name="login">Entrar</string>
     <string name="register">Registar</string>
     <string name="confirm_password">Confirmar Passe</string>
+    <string name="underline_register"><u>Registar</u></string>
 </resources>

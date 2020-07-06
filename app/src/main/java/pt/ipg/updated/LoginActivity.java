@@ -9,6 +9,7 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -32,11 +33,26 @@ public class LoginActivity extends AppCompatActivity {
                 moveToMainActivity();
             }
         });
+
+        TextView tv = (TextView)findViewById(R.id.textViewReg);
+
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                movetoRegisterActivity();
+            }
+        });
     }
 
     private void moveToMainActivity(){
 
         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    private void movetoRegisterActivity(){
+
+        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(intent);
     }
 }

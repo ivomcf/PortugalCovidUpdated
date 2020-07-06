@@ -14,8 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="389dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="343dp"
         android:drawableLeft="@drawable/ic_action_username"
         android:ems="10"
         android:hint="@string/username"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="290dp"
+        android:layout_marginBottom="267dp"
         android:drawableLeft="@drawable/ic_action_password"
         android:ems="10"
         android:hint="@string/password"
@@ -51,14 +51,13 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewRegister"
+                android:id="@+id/textViewURegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="@string/login"
+                android:text="@string/register"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                tools:text="@string/register" />
+                android:textStyle="bold" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
@@ -68,9 +67,19 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="202dp"
+        android:layout_marginBottom="192dp"
+        android:drawableLeft="@drawable/ic_action_password"
         android:ems="10"
         android:hint="@string/confirm_password"
-        android:inputType="textPersonName"
-        android:drawableLeft="@drawable/ic_action_password"/>
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageViewRegister"
+        android:layout_width="197dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/ic_action_person" />
+
 </RelativeLayout>
