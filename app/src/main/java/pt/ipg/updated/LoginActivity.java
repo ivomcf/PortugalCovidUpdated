@@ -7,6 +7,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -62,14 +63,14 @@ public class LoginActivity extends AppCompatActivity {
 
         if(res == true)
         {
+            Toast.makeText(LoginActivity.this,"@String/login_success",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(intent);
-            Toast.makeText(LoginActivity.this,"@string/login_success",Toast.LENGTH_SHORT).show();
 
         }
         else
         {
-            Toast.makeText(LoginActivity.this,"@string/login_error",Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginActivity.this,"@String/login_error",Toast.LENGTH_SHORT).show();
         }
     }
 
