@@ -9,4 +9,9 @@
     <string name="register">Registar</string>
     <string name="confirm_password">Confirmar Passe</string>
     <string name="underline_register"><u>Registar</u></string>
+    <string name="login_error">Erro a Entrar!</string>
+    <string name="login_success">Entrada com Sucesso!</string>
+    <string name="register_success">Registo com Sucesso!</string>
+    <string name="register_error">Erro a Registar!</string>
+    <string name="password_doesnt_match">Palavra-passe não condiz!</string>
 </resources>
