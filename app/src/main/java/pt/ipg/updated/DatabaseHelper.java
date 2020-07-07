@@ -10,10 +10,10 @@ import androidx.annotation.Nullable;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME="register.db";
-    public static final String TABLE_NAME="registeruser.db";
-    public static final String COL_1="ID.db";
-    public static final String COL_2="username.db";
-    public static final String COL_3="password.db";
+    public static final String TABLE_NAME="registeruser";
+    public static final String COL_1="ID";
+    public static final String COL_2="username";
+    public static final String COL_3="password";
 
     public DatabaseHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, 1);

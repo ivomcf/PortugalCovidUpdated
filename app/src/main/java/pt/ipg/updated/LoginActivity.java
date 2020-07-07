@@ -63,14 +63,14 @@ public class LoginActivity extends AppCompatActivity {
 
         if(res == true)
         {
-            Toast.makeText(LoginActivity.this,"@String/login_success",Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginActivity.this,getString(R.string.login_success),Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(intent);
 
         }
         else
         {
-            Toast.makeText(LoginActivity.this,"@String/login_error",Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginActivity.this,getString(R.string.login_error),Toast.LENGTH_SHORT).show();
         }
     }
 
