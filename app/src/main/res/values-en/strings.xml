@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Casos de Covid-19</string>
+    <string name="tab_text1">Suspected</string>
+    <string name="tab_text2">Confirmed</string>
+    <string name="tab_text3">Recovered</string>
+    <string name="username">User</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="underline_register"><u>Register</u></string>
+    <string name="login_error">Login Error!</string>
+    <string name="login_success">Login Success!</string>
+    <string name="register_success">Registration Success!</string>
+    <string name="register_error">Register Error!</string>
+    <string name="password_doesnt_match">Passwords don\'t match!</string>
+</resources>
