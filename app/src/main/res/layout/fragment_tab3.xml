@@ -16,19 +16,88 @@
         tools:context=".tab3">
 
         <TextView
+            android:id="@+id/textViewPTConfirmed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="235dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginBottom="216dp"
+            android:text="7079556"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textViewPTToday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="234dp"
+            android:layout_marginLeft="234dp"
+            android:layout_marginBottom="161dp"
+            android:text="+139969"
+            android:textSize="30dp" />
+
+        <TextView
             android:id="@+id/textViewSuspectedWorld"
             android:layout_width="166dp"
             android:layout_height="39dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="218dp"
-            android:layout_marginLeft="218dp"
+            android:layout_marginStart="261dp"
+            android:layout_marginLeft="261dp"
             android:layout_marginBottom="270dp"
-            android:text="Média no Mundo:"
+            android:text="Mundo:"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp"
             app:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/textViewSuspectedPT"
+            android:layout_width="166dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginBottom="270dp"
+            android:text="Portugal:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/textViewPTConfirmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginBottom="214dp"
+            android:text="31065"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textViewPTToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginBottom="158dp"
+            android:text="+158"
+            android:textSize="30dp" />
+
+
 
         <ImageView
             android:id="@+id/imageViewWorld"
@@ -53,21 +122,6 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="52dp"
             android:src="@drawable/pt2" />
-
-        <TextView
-            android:id="@+id/textViewSuspectedPT"
-            android:layout_width="166dp"
-            android:layout_height="39dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="72dp"
-            android:layout_marginLeft="72dp"
-            android:layout_marginBottom="270dp"
-            android:text="Portugal:"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
-            app:fontFamily="sans-serif" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
