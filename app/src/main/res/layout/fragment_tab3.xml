@@ -61,10 +61,10 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="25dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
             android:layout_marginBottom="270dp"
-            android:text="Média em Portugal:"
+            android:text="Portugal:"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp"
             app:fontFamily="sans-serif" />
