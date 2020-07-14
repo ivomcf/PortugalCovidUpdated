@@ -14,4 +14,5 @@
     <string name="register_success">Registo com Sucesso!</string>
     <string name="register_error">Erro a Registar!</string>
     <string name="password_doesnt_match">Palavra-passe não condiz!</string>
+    <string name="world">Mundo:</string>
 </resources>

@@ -44,7 +44,7 @@
         android:layout_marginStart="261dp"
         android:layout_marginLeft="261dp"
         android:layout_marginBottom="270dp"
-        android:text="Mundo:"
+        android:text="@string/world"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp"
         app:fontFamily="sans-serif" />
